@@ -2,6 +2,10 @@
 export default {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    container: {
+      center: true,
+      padding: '16px',
+    },
     extend: {
       fontFamily: {
         display: ['Lato', 'sans-serif'],
